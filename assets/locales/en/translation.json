@@ -1,0 +1,33 @@
+{
+        "role":"Front-End individual Project",
+        "about":"About Me",
+        "history":"Graduated as a systems engineer in 2006 with a degree from Politecnico University, Colombia. Full Stack Web Developer with a formal qualification from the University of Sydney Boot Camp. Creative problem solver who is passionate about learning and expanding knowledge in new technologies. Experience in front end and back end developing with a focus on developing apps that are functional and user friendly. Bringing projects to life with strong development, design, and technical skills.",
+        "history1":"Living in Sydney Australia since 2015 with a passion   for technology and developing.",
+        "history2":"Working in technologies including JavaScript, Node.js, React, CSS, MongoDB, MySQL.",
+        "history3":"Passionate about riding motorcycles, spending an afternoon on my paddle board, and sitting down to develop and create on my computer.",
+        "name":"name",
+        "email":"email",
+        "message":"Message",
+        "Submit":"SUBMIT",
+        "acerca":"About",
+        "portfolio":"Portfolio",
+        "contact":"Contact",
+        "Resume":"Resume",
+        "language":"English",
+        "education":"Education",
+        "work":"Work",
+        "resumen":"Resume",
+        "us":"University of Sydney",
+        "usp":"Web Developer 2021",
+        "ue":"University Externado de Colombia",
+        "uep":"Certificate, International Commerce 2009",
+        "up":"University Politecnico GranColombiano",
+        "upp":"System Engineer 2006",
+        "bkp":"Carpenter 2021",
+        "ppp":"Fanuc Programer  2015",
+        "ptp":"Production Manager 2015",
+        "ffp":"Import Coordinator",
+        "projects":"Projects" 
+        
+
+}
