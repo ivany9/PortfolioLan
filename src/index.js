@@ -9,9 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js'
 import {initReactI18next } from "react-i18next";
 import App from './App';
-//
+
 
 i18n
+  
   .use(initReactI18next) // passes i18n down to react-i18next
   .use(LanguageDetector)
   .use(HttpApi)
@@ -27,8 +28,9 @@ i18n
   },
 
   backend:{
-    loadPath: '/assets/locales/{{lng}}/translation.json',
-
+    // loadPath: './components/locales/{{lng}}/translation.json',
+      loadPath: 'https://ivany9.github.io/PortfolioLan/locales/{{lng}}/translation.json',
+     
   },
    
   });

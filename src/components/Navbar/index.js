@@ -31,7 +31,7 @@ const NavBar = ()=>{
 
    
    <div 
-   className="collapse navbar-collapse d-flex justify-content-end mx-3" id="navbarSupportedContent">
+   className="collapse navbar-collapse mx-3" id="navbarSupportedContent">
    <ul className="navbar-nav ml-auto"> 
    <div className="hori-selector">
      <div className="left"></div>

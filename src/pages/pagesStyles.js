@@ -153,8 +153,15 @@ padding: 20px;
 
 export const Photo=styled.img`
  
-height: 300px;
+height: 250px;
 border-radius: 25px;
+@media screen and (max-width: 500px) {
+   
+	height: 150px;	
+
+	
+    
+  }
 
 
 `
