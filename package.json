@@ -2,7 +2,7 @@
   "name": "portlan",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/static/",
+  "homepage": "https:/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
