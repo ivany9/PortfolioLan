@@ -1,0 +1,66 @@
+{
+"projects":[
+{
+ "title":"Team Profile Generator",
+ "image":"team-generator.gif",
+ "url":"https://github.com/ivany9/Team-Profile-Generator.git",
+ "id":1
+},
+{
+    "title":"Progressive Budget",
+    "image":"progresive-budget.gif",
+    "url":"https://github.com/ivany9/Progressive-Budget.git",
+    "id":2
+   },
+   {
+    "title":"Weather Dashboard",
+    "image":"wheather-dashboard.gif",
+    "url":"https://github.com/ivany9/Weather-Dashboard.git",
+    "id":3
+   },
+   {
+    "title":"Employee Management System",
+    "image":"employee-manager.gif",
+    "url":"https://github.com/ivany9/Employee-Management-System.git",
+    "id":4
+   },
+   {
+    "title":"Fitness Tracker",
+    "image":"fitness-tracker.gif",
+    "url":"https://github.com/ivany9/Fitness-Tracker.git",
+    "id":5
+   },
+   {
+    "title":"Car Enthusiasts",
+    "image":"car-enthusiats.gif",
+    "url":"https://github.com/ChristopherBz/Car-Enthusiasts.git",
+    "id":6
+   }
+
+]
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
