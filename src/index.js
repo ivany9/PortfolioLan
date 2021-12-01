@@ -27,11 +27,19 @@ i18n
      detection:{ order: ['cookie','htmlTag', 'localStorage','path','subdomain' ],
      caches: ['cookie']
   },
-
-  backend:{
-      loadPath: 'static/locales/{{lng}}/translation.json',
+    
+  backend: {
+    loadPath: () => {
+      // check the domain
+      const host ='ivany9.github.io/PortfolioLan/'
+      return (host === 'production.ltd' ? '/static/app':'') + 'locales/{{lng}}/translation.json';
+    },
+  },
+     
+  // backend:{
+  //     loadPath: 'locales/{{lng}}/translation.json',
          
-     },
+  //    },
 
     })
 
