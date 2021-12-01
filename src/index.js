@@ -29,7 +29,7 @@ i18n
   },
 
   backend:{
-      loadPath: 'https://ivany9.github.io/PortfolioLan/locales/{{lng}}/translation.json',
+      loadPath: 'static/locales/{{lng}}/translation.json',
          
      },
 
