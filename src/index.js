@@ -9,7 +9,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js'
 import {initReactI18next } from "react-i18next";
 import App from './App';
-
+import translationEN from "./locales/en/translation.json";
+import translationSp from "./locales/sp/translation.json";
+const resources = {
+ en: {
+   translation: translationEN,
+ },
+ sp: {
+   translation: translationSp,
+ },
+};
 
 i18n
   
@@ -22,19 +31,22 @@ i18n
     // (tip move them in a JSON file and import them,
     // or even better, manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
    
+    resources, 
     supportedLngs:['en','sp'],
     fallbackLng: "en",
      detection:{ order: ['cookie','htmlTag', 'localStorage','path','subdomain' ],
-     caches: ['cookie']
+     caches: ['cookie'],
+    
+
   },
     
-  backend: {
+  
     loadPath: () => {
       // check the domain
-      const host ='http://ivany9.github.io/PortfolioLan/'
+      const host ='https://ivany9.github.io/PortfolioLan/'
       return (host === 'production.ltd' ? '/static/app/':'') + 'locales/{{lng}}/translation.json';
     },
-  },
+  
      
   // backend:{
   //     loadPath: 'locales/{{lng}}/translation.json',
