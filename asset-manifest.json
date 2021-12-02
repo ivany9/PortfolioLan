@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/PortfolioLan/static/css/main.cd164463.chunk.css",
-    "main.js": "/PortfolioLan/static/js/main.00d1344c.chunk.js",
-    "main.js.map": "/PortfolioLan/static/js/main.00d1344c.chunk.js.map",
-    "runtime-main.js": "/PortfolioLan/static/js/runtime-main.9d8d361a.js",
-    "runtime-main.js.map": "/PortfolioLan/static/js/runtime-main.9d8d361a.js.map",
+    "main.js": "/PortfolioLan/static/js/main.574378aa.chunk.js",
+    "main.js.map": "/PortfolioLan/static/js/main.574378aa.chunk.js.map",
+    "runtime-main.js": "/PortfolioLan/static/js/runtime-main.c631e778.js",
+    "runtime-main.js.map": "/PortfolioLan/static/js/runtime-main.c631e778.js.map",
     "static/css/2.98111dc1.chunk.css": "/PortfolioLan/static/css/2.98111dc1.chunk.css",
-    "static/js/2.7e34e9fe.chunk.js": "/PortfolioLan/static/js/2.7e34e9fe.chunk.js",
-    "static/js/2.7e34e9fe.chunk.js.map": "/PortfolioLan/static/js/2.7e34e9fe.chunk.js.map",
-    "static/js/3.de4887ca.chunk.js": "/PortfolioLan/static/js/3.de4887ca.chunk.js",
-    "static/js/3.de4887ca.chunk.js.map": "/PortfolioLan/static/js/3.de4887ca.chunk.js.map",
+    "static/js/2.2c630ef9.chunk.js": "/PortfolioLan/static/js/2.2c630ef9.chunk.js",
+    "static/js/2.2c630ef9.chunk.js.map": "/PortfolioLan/static/js/2.2c630ef9.chunk.js.map",
+    "static/js/3.9c853da9.chunk.js": "/PortfolioLan/static/js/3.9c853da9.chunk.js",
+    "static/js/3.9c853da9.chunk.js.map": "/PortfolioLan/static/js/3.9c853da9.chunk.js.map",
     "index.html": "/PortfolioLan/index.html",
     "static/css/2.98111dc1.chunk.css.map": "/PortfolioLan/static/css/2.98111dc1.chunk.css.map",
     "static/css/main.cd164463.chunk.css.map": "/PortfolioLan/static/css/main.cd164463.chunk.css.map",
-    "static/js/2.7e34e9fe.chunk.js.LICENSE.txt": "/PortfolioLan/static/js/2.7e34e9fe.chunk.js.LICENSE.txt",
+    "static/js/2.2c630ef9.chunk.js.LICENSE.txt": "/PortfolioLan/static/js/2.2c630ef9.chunk.js.LICENSE.txt",
     "static/media/MySQL.e1595fa4.jpg": "/PortfolioLan/static/media/MySQL.e1595fa4.jpg",
     "static/media/React.5929148e.png": "/PortfolioLan/static/media/React.5929148e.png",
     "static/media/ToolsFinder.b3473026.gif": "/PortfolioLan/static/media/ToolsFinder.b3473026.gif",
@@ -33,10 +33,10 @@
     "static/media/wheather-dashboard.2234911e.gif": "/PortfolioLan/static/media/wheather-dashboard.2234911e.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d8d361a.js",
+    "static/js/runtime-main.c631e778.js",
     "static/css/2.98111dc1.chunk.css",
-    "static/js/2.7e34e9fe.chunk.js",
+    "static/js/2.2c630ef9.chunk.js",
     "static/css/main.cd164463.chunk.css",
-    "static/js/main.00d1344c.chunk.js"
+    "static/js/main.574378aa.chunk.js"
   ]
 }
