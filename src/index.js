@@ -31,7 +31,7 @@ i18n
   backend: {
     loadPath: () => {
       // check the domain
-      const host ='ivany9.github.io/PortfolioLan/'
+      const host ='http://ivany9.github.io/PortfolioLan/'
       return (host === 'production.ltd' ? '/static/app/':'') + 'locales/{{lng}}/translation.json';
     },
   },
