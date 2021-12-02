@@ -32,7 +32,7 @@ i18n
     loadPath: () => {
       // check the domain
       const host ='ivany9.github.io/PortfolioLan/'
-      return (host === 'production.ltd' ? '/static/app/':'') + '/locales/{{lng}}/translation.json';
+      return (host === 'production.ltd' ? '/static/app/':'') + 'locales/{{lng}}/translation.json';
     },
   },
      
