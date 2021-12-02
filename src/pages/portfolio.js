@@ -134,7 +134,7 @@ const project=[
         id = {projects.id}
         deploy={projects.deploy}
         description={projects.description}
-        role={t('role')}
+        role={projects.role}
         />
         ))}
         </div>
