@@ -43,8 +43,9 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ### Demo
 
-![mockup](https://user-images.githubusercontent.com/83906297/137855055-1220cf11-886f-4710-bbda-e75a4217a31b.gif)
 
+
+![uno](https://user-images.githubusercontent.com/83906297/144368779-e576d1a1-8e48-4b33-ae9d-2ea87c2b1a6f.gif)
 
 ## Installation
 
