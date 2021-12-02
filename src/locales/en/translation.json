@@ -8,7 +8,7 @@
         "name":"name",
         "email":"email",
         "message":"Message",
-        "Submit":"SUBMIT",
+        "submit":"SUBMIT",
         "acerca":"About",
         "portfolio":"Portfolio",
         "contact":"Contact",

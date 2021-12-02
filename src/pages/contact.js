@@ -10,8 +10,12 @@ import { contains, style } from 'dom-helpers';
 import fondo from '../images/cont.jpg'
 import "./stylesimg.css"; 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from 'react-i18next';
+
+
 
 const Contact = () => {
+  const {t}=useTranslation()
 
    const [email,setEmail]=useState('');
    const [userName, setUserName]=useState('');
@@ -85,22 +89,22 @@ const Contact = () => {
     <Form>
     <div className="form-group p-1">
      
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">{t('name')}</label>
         <input value={userName} onChange={handleInputChange} name="userName"  className="form-control" placeholder="name"/><p> {errorMessagename}</p>
     </div>
     <div className="form-group">
-        <label htmlFor="exampleInputEmail1">Email address</label>
+        <label htmlFor="exampleInputEmail1">{t('email')}</label>
         <input  value={email} onChange={handleInputChange}  name="email" type="email" className="form-control" aria-describedby="emailHelp" placeholder="name@example.com" />
         <p> {errorMessageemail}</p>
     </div>
     <div className="form-group">
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message">{t('message')}</label>
         <textarea value={texta} onChange={handleInputChange} className="form-control" name="texta" rows="10"></textarea>  <p> {errorMessagedescription}</p>
     </div>
     <div>
       <br/>
       </div>
-      < Button variant="dark" size="lg" onClick={handleFormSubmit}>Submit</Button>{"           "}
+      < Button variant="dark" size="lg" onClick={handleFormSubmit}>{t('submit')}</Button>{"           "}
       <div className="form-group d-flex justify-content-end text-secondary" >
       
       </div>
