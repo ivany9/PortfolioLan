@@ -1,7 +1,7 @@
 import React  from 'react';
 import { Cont, Container} from './pagesStyles';
 import  {Col, Row, Button} from 'react-bootstrap';
-import resume from '../images/resume2.pdf'
+import resume from '../images/Resume2022.pdf'
 import { useTranslation } from 'react-i18next';
 
 const Resume = () => {
@@ -80,7 +80,7 @@ const Resume = () => {
     
      <Row>
       <Col sm={1}>  
-       <a>< Button variant="dark" size="lg" href={resume} download="resume2.pdf">{t('resumen')}</Button></a>
+       <a>< Button variant="dark" size="lg" href={resume} download="Resume2022.pdf">{t('resumen')}</Button></a>
       </Col>
      </Row>
   </Container>
